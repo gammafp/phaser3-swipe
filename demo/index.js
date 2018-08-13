@@ -2,6 +2,7 @@ const conf = {
     width: 600,
     height: 400,
     parent: 'contenedor',
+    backgroundColor: '#1abc9c',
     scene: {
         preload: preload,
         create: create
@@ -13,6 +14,8 @@ var game = new Phaser.Game(conf);
 function preload() {
     // Se carga el plugin en memoria
     this.load.plugin("Phaser3Swipe", Phaser3Swipe, true);
+
+    this.load.image("img", "./swipe.png");
 }
 
 function create() {
@@ -36,6 +39,8 @@ function create() {
         else if(e.down) {
             alert("DOWN: Hacer algo a la abajo");      
         }
-    })
-   
+    });
+
+
+    this.add.image(300, 200, "img");
 }
