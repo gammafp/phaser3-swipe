@@ -1,6 +1,9 @@
 # phaser3-swipe
 Un plugin para Phaser3 que provee la posibilidad de usar gestos swipe
 
+---
+## **[DEMO](https://gammafp.github.io/phaser3-swipe/demo/)**
+---
 ## Instalación:
 - Descargar el plugin clonandolo desde github.
 - Dentro de la carpeta dist está el plugin.
