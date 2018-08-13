@@ -4,20 +4,18 @@
   "description": "Un plugin para tener controles swipe en Phaser3",
   "main": "src/main.js",
   "scripts": {
-    "build": "webpack --config webpack.build.config.js",
-    "demo": "webpack --config webpack.demo.config.js",
-    "dev": "webpack --config webpack.demo.config.js"
+    "build": "webpack --config webpack.build.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gammafp"
+    "url": "git+https://github.com/gammafp/phaser3-swipe"
   },
   "author": "Francisco Pereira Alvarado - gammafp",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gammafp/issue"
+    "url": "https://github.com/gammafp/phaser3-swipe/issue"
   },
-  "homepage": "https://github.com/gammafp#readme",
+  "homepage": "https://github.com/gammafp/phaser3-swipe#readme",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-eslint": "^7.2.3",

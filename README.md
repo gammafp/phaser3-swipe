@@ -7,7 +7,7 @@ Un plugin para Phaser3 que provee la posibilidad de usar gestos swipe
 ---
 
 ## Instalación:
-- Descargar el plugin clonandolo desde github.
+- Descargar el plugin con ```npm install --save phaser3-swipe``` o clonandolo desde github.
 - Dentro de la carpeta dist está el plugin.
 
 ### Se puede llamar el archivo por carga estática o por webpack.
