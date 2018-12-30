@@ -50,7 +50,7 @@ class Phaser3Swipe extends Phaser.Plugins.BasePlugin {
         return (newDir) => {
             let outDir = dir;
             Object.keys(dir).map( (x) => {
-                outDir[x] = (x === newDir) ? true: false;
+                outDir[x] = x === newDir;
             });
             return outDir;  
         }
